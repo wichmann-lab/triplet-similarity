@@ -1,0 +1,96 @@
+# Order in which the session files were listed by the file system when the
+# original analysis was run (2024/2025). Kept so that analysis can be
+# reproduced exactly: the order decides how triplets are stacked, which
+# decides the cross-validation folds. New analyses use sorted order.
+experiment/data/classic_P2_3a_object_triplets_2023-12-04_16h57.06.734_5.csv
+experiment/data/odd one out_O2_1d_object_triplets_2023-02-09_16h45.57.861_5.csv
+experiment/data/classic_P2_7b_object_triplets_2024-01-16_14h51.33.184_5.csv
+experiment/data/classic_O1_1c_object_triplets_2023-03-11_11h16.36.446_5.csv
+experiment/data/odd one out_O5_1f_object_triplets_2023-07-15_10h58.32.557_5.csv
+experiment/data/classic_O1_1a_object_triplets_2022-12-28_11h08.14.177_5.csv
+experiment/data/odd one out_P1_4a_object_triplets_2023-01-17_14h43.17.218_5.csv
+experiment/data/odd one out_O4_2b_object_triplets_2023-01-10_19h10.55.251_6.csv
+experiment/data/classic_O4_1f_object_triplets_2023-02-17_19h00.15.749_5.csv
+experiment/data/classic_O1_2f_object_triplets_2023-07-20_17h15.05.420_5.csv
+experiment/data/odd one out_P2_3b_object_triplets_2023-12-05_12h55.44.338_5.csv
+experiment/data/classic_O1_2b_object_triplets_2023-01-14_12h01.35.719_5.csv
+experiment/data/odd one out_O1_2c_object_triplets_2023-05-20_11h24.57.184_5.csv
+experiment/data/classic_O3_2b_object_triplets_2023-01-21_13h10.34.393_5.csv
+experiment/data/classic_O5_2f_object_triplets_2023-07-17_14h15.08.501_5.csv
+experiment/data/classic_O3_2d_object_triplets_2023-02-10_19h17.46.433_5.csv
+experiment/data/odd one out_P1_3b_object_triplets_2023-01-13_10h19.52.468_6.csv
+experiment/data/classic_P2_4b_object_triplets_2023-12-05_15h59.15.406_5.csv
+experiment/data/odd one out_O2_2c_object_triplets_2023-02-11_11h26.39.814_5.csv
+experiment/data/odd one out_O5_2c_object_triplets_2023-07-14_10h10.49.785_5.csv
+experiment/data/odd one out_P1_7b_object_triplets_2023-01-20_10h31.46.997_5.csv
+experiment/data/classic_P2_2a_object_triplets_2023-11-03_15h13.11.102_5.csv
+experiment/data/odd one out_O4_2c_object_triplets_2023-02-10_18h09.58.690_5.csv
+experiment/data/classic_O1_1e_object_triplets_2023-07-14_13h30.02.247_5.csv
+experiment/data/odd one out_P1_6a_object_triplets_2023-01-19_11h15.20.840_5.csv
+experiment/data/classic_O3_1c_object_triplets_2023-02-04_10h18.57.602_5.csv
+experiment/data/classic_O1_2d_object_triplets_2023-05-20_12h36.12.020_5.csv
+experiment/data/classic_O2_2d_object_triplets_2023-02-11_12h38.13.126_5.csv
+experiment/data/odd one out_O3_2e_object_triplets_2023-04-25_16h06.41.286_5.csv
+experiment/data/odd one out_P2_2b_object_triplets_2023-11-03_16h41.33.484_5.csv
+experiment/data/odd one out_O5_1d_object_triplets_2023-07-08_11h33.13.410_5.csv
+experiment/data/classic_P1_3a_object_triplets_2023-01-13_09h21.43.926_6.csv
+experiment/data/classic_O5_2d_object_triplets_2023-07-14_11h07.54.597_5.csv
+experiment/data/classic_O2_1c_object_triplets_2023-02-09_15h36.48.014_5.csv
+experiment/data/classic_P2_6a_object_triplets_2024-01-16_09h13.15.994_5.csv
+experiment/data/classic_P1_8b_object_triplets_2023-01-21_09h31.20.172_5.csv
+experiment/data/odd one out_P2_7a_object_triplets_2024-01-16_13h13.09.728_5.csv
+experiment/data/classic_P1_4b_object_triplets_2023-01-17_15h38.27.805_5.csv
+experiment/data/odd one out_O1_2e_object_triplets_2023-07-20_16h07.27.856_5.csv
+experiment/data/odd one out_P1_5b_object_triplets_2023-01-19_10h03.03.800_5.csv
+experiment/data/classic_P1_7a_object_triplets_2023-01-20_08h33.24.562_5.csv
+experiment/data/odd one out_P1_2a_object_triplets_2023-01-12_10h49.50.175_6.csv
+experiment/data/classic_O3_1a_object_triplets_2023-01-07_09h17.18.436_5.csv
+experiment/data/classic_O4_1c_object_triplets_2023-01-21_12h05.21.881_5.csv
+experiment/data/odd one out_P2_4a_object_triplets_2023-12-05_14h34.54.721_5.csv
+experiment/data/odd one out_O1_1d_object_triplets_2023-03-11_12h27.54.740_5.csv
+experiment/data/odd one out_P2_9a_object_triplets_2024-01-26_09h10.14.307.csv
+experiment/data/odd one out_O3_1b_object_triplets_2023-01-07_11h22.09.748_5.csv
+experiment/data/classic_O5_1c_object_triplets_2023-07-08_10h36.31.962_5.csv
+experiment/data/odd one out_P2_6b_object_triplets_2024-01-16_10h49.19.017_5.csv
+experiment/data/classic_P1_9a_object_triplets_2023-01-31_14h03.36.150.csv
+experiment/data/odd one out_P1_9b_object_triplets_2023-01-31_14h21.48.733.csv
+experiment/data/odd one out_O1_2a_object_triplets_2023-01-14_10h08.54.403_5.csv
+experiment/data/odd one out_O2_1a_object_triplets_2022-12-28_12h28.07.345_5.csv
+experiment/data/odd one out_O3_2a_object_triplets_2023-01-21_11h19.44.162_5.csv
+experiment/data/classic_P1_5a_object_triplets_2023-01-19_08h34.35.984_4+1.csv
+experiment/data/classic_O4_1b_object_triplets_2023-01-07_13h06.05.710_3+3.csv
+experiment/data/odd one out_O2_2b_object_triplets_2023-01-14_10h59.55.499_5.csv
+experiment/data/classic_O3_2f_object_triplets_2023-04-25_17h06.10.474_5.csv
+experiment/data/classic_P2_1b_object_triplets_2023-08-24_14h32.57.310_5.csv
+experiment/data/odd one out_O1_1b_object_triplets_2022-12-28_13h28.55.316_5.csv
+experiment/data/classic_O4_2a_object_triplets_2023-01-10_17h50.29.533_6.csv
+experiment/data/odd one out_O5_2e_object_triplets_2023-07-17_13h21.13.219_5.csv
+experiment/data/odd one out_O4_1e_object_triplets_2023-02-17_17h58.48.440_5.csv
+experiment/data/classic_O2_2e_object_triplets_2023-05-25_12h30.26.038_5.csv
+experiment/data/classic_P1_2b_object_triplets_2023-01-12_12h00.47.229_6.csv
+experiment/data/classic_P2_8a_object_triplets_2024-01-21_12h58.09.394_5.csv
+experiment/data/classic_P1_6b_object_triplets_2023-01-19_12h31.05.458_5.csv
+experiment/data/odd one out_P2_1a_object_triplets_2023-08-24_13h23.35.007_5.csv
+experiment/data/odd one out_P2_5a_object_triplets_2023-12-09_16h56.25.629_5.csv
+experiment/data/odd one out_O4_1d_object_triplets_2023-02-04_11h00.27.074_5.csv
+experiment/data/classic_P2_5b_object_triplets_2023-12-09_18h24.03.151_5.csv
+experiment/data/odd one out_P2_8b_object_triplets_2024-01-21_14h45.17.030_5.csv
+experiment/data/odd one out_O4_1a_object_triplets_2023-01-07_10h17.27.962_5.csv
+experiment/data/classic_O2_1b_object_triplets_2022-12-28_14h21.52.835_5.csv
+experiment/data/classic_P1_1a_object_triplets_2023-01-10_15h58.43.332_5.csv
+experiment/data/classic_O5_1e_object_triplets_2023-07-15_10h12.49.365_5.csv
+experiment/data/odd one out_P1_8a_object_triplets_2023-01-21_08h39.00.098_5.csv
+experiment/data/odd one out_P1_1b_object_triplets_2023-01-12_09h38.12.069_5.csv
+experiment/data/odd one out_O2_2f_object_triplets_2023-05-25_13h24.12.160_5.csv
+experiment/data/classic_O2_2a_object_triplets_2023-01-14_09h17.34.865_5.csv
+experiment/data/odd one out_O3_1d_object_triplets_2023-02-04_12h09.48.370_5.csv
+experiment/data/classic_P2_9b_object_triplets_2024-01-26_09h27.21.996.csv
+experiment/data/odd one out_O1_1f_object_triplets_2023-07-14_14h23.42.321_5.csv
+experiment_mid_lab/data/odd one out_O3_1f_object_triplets_2023-02-17_19h01.00.090_5.csv
+experiment_mid_lab/data/odd one out_O3_2c_object_triplets_2023-02-10_18h10.32.038_5.csv
+experiment_mid_lab/data/odd one out_O2_1e_object_triplets_2023-05-20_11h26.29.262_5.csv
+experiment_mid_lab/data/classic_O3_1e_object_triplets_2023-02-17_18h02.36.560_5.csv
+experiment_mid_lab/data/classic_O2_1f_object_triplets_2023-05-20_12h37.08.688_5.csv
+experiment_mid_lab/data/odd one out_O4_2f_object_triplets_2023-04-25_17h06.54.234_5.csv
+experiment_mid_lab/data/classic_O4_2e_object_triplets_2023-04-25_16h07.46.491_5.csv
+experiment_mid_lab/data/classic_O4_2d_object_triplets_2023-02-10_19h18.23.026_5.csv

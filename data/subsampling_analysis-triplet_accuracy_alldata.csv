@@ -1,0 +1,13 @@
+observer,task,image_set,d,accuracy,n
+P1,classic,action,2,0.9198364008179959,2445
+P1,classic,greebles,2,0.7827515400410677,2435
+P1,classic,taxonomic,2,0.9359605911330049,2436
+P1,odd one out,action,2,0.9871270944013077,2447
+P1,odd one out,greebles,1,0.8452088452088452,2442
+P1,odd one out,taxonomic,1,0.9969350224765018,2447
+P2,classic,action,2,0.8226863226863227,2442
+P2,classic,greebles,2,0.8412371134020619,2425
+P2,classic,taxonomic,3,0.8831488314883149,2439
+P2,odd one out,action,1,0.8507647788342291,2419
+P2,odd one out,greebles,1,0.9073844884488449,2424
+P2,odd one out,taxonomic,3,0.9327868852459016,2440

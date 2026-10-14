@@ -1,0 +1,1 @@
+{"pval_corrected": [1.0, 1.0, 1.0, 1.0], "estimated_dimension": 1, "reject": [false, false, false, false], "min_delta": [0.00040645285562115944, 0.0006219261327071891, 0.0005990827747336891, 0.000705606289024601], "criterion": "LogOdds"}
