@@ -1,4 +1,4 @@
-# Triplet similarity - Same stimuli, different spaces
+# Triplet similarity
 
 Data, code and materials for
 
