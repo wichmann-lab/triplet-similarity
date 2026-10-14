@@ -22,7 +22,7 @@ Data, code and materials for
 ## Reproducing analyses, figures and tables
 
 All analyses ran from notebooks in `scripts/`. Raw data are read only through `scripts/load_data.py::load_all()`, which
-cleans them (training and timeout trials, left-right swap, triplet conversion) and returns one row per session and image set.
+cleans them (training trials and trials without a response, left-right swap, triplet conversion) and returns one row per session and image set.
 
 Below are listed all figures and tables shown in the manuscript, with their correpsonding notebook that produce them. 
 Before running, use `environment.yml` to set up a python enviroment.

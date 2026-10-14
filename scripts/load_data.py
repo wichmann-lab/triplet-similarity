@@ -106,6 +106,7 @@ def load_session_data(file, drop_training=True, clean=True):
             triplets = triplets_from_oddoneout(raw_triplets, responses.astype(int))
         else:
             raise NotImplementedError
+        # trials without a recorded response (there was no time limit)
         d['n_timeout'] = np.sum(grp['resp.key'].isna())
         d['responses'] = responses
         d['raw_triplets'] = raw_triplets
