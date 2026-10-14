@@ -1,15 +1,9 @@
-# Same stimuli, different spaces
+# Triplet similarity - Same stimuli, different spaces
 
 Data, code and materials for
 
-> Aguilar, G., Schönmann, I., Mühlbauer, B. F., Künstle, D.-E., & Wichmann, F. A.
-> *Same stimuli, different spaces: how task, observer and amount of data
-> influence geometry and reliability of mental representations.*
-
-Observers judged the similarity of 54 images (three sets of 18: *action*,
-*taxonomic*, *greebles*) in two triplet tasks, *classic* and *odd one out*.
-Experiment 1: five observers (O1 - O5) answered the same trials three times.
-Experiment 2: two observers (P1, P2) answered all possible trials; P1 is O5.
+> Aguilar, G., Schönmann, I., Mühlbauer, B. F., Künstle, D. E., & Wichmann, F. A. (in review)
+> *Same stimuli, different spaces: how task, observer and amount of data influence geometry and reliability of mental representations.*
 
 ## Contents
 
@@ -21,24 +15,13 @@ Experiment 2: two observers (P1, P2) answered all possible trials; P1 is O5.
 | `data/` | Fitted embeddings, cross-validation results and simulation outputs. |
 | `plots/` | Figures. |
 
-## Quick start
+## Reproducing analyses, figures and tables
 
-```bash
-conda env create -f environment.yml
-conda activate triplet-similarity
-cd scripts
-python -m pytest tests
-SOURCE_DATE_EPOCH=0 jupyter nbconvert --to notebook --execute --inplace analysis_reliability.ipynb
-```
+All analyses ran from notebooks in `scripts/`. Raw data are read only through `scripts/load_data.py::load_all()`, which
+cleans them (training and timeout trials, left-right swap, triplet conversion) and returns one row per session and image set.
 
-Run notebooks from `scripts/`. `SOURCE_DATE_EPOCH=0` makes the PDF figures
-byte-identical between runs. Figures use the Arial font.
-
-Raw data are read only through `scripts/load_data.py::load_all()`, which
-cleans them (training and timeout trials, left-right swap, triplet
-conversion) and returns one row per session and image set.
-
-## Manuscript figures and tables
+Below are listed all figures and tables shown in the manuscript, with their correpsonding notebook that produce them. 
+Before running, use `environment.yml` to set up a python enviroment.
 
 | Item | Notebook in `scripts/` |
 |---|---|
@@ -63,25 +46,17 @@ thumbnails); their sources are the `.svg` files next to `*-edited.pdf` in
 missing (about 8 h in total); otherwise they check the rebuilt data against the
 saved runs.
 
-## Reproducibility
+## Reproducibility and randomness
 
-- Sessions are combined in the fixed order of `data/original_session_order.txt`.
-- Every fit and every random step takes an integer seed (`SEED = 0`), and fits
-  run on 10 parallel jobs; the number of jobs does not change the results.
-- Three conditions change between one and two dimensions with the seed (O2,
-  odd one out, greebles; O4, odd one out, taxonomic; P1, odd one out, action).
-  For these we report the majority over SOE seeds 0 - 9
-  (`seed_stability.py`, `data/dimensionality_seed_stability_published_inputs.csv`).
-- The Experiment 2 subsampling runs (`data/subsampling_analysis-*.csv`) take
-  days to refit. Setting `do_simulation = True` in
-  `embedding_analysis_subsampling_P1_P2.ipynb` refits them with a fixed seed,
-  which reproduces them up to the random variation of the subsamples.
+- Every embedding fit and every random step takes an integer seed that is fixed (`SEED = 0`).
+- Data sessions are combined in the fixed order of `data/original_session_order.txt`; some analyses rely on the order so load order is here fixed to ensure reproducibility.
+- For the embeddings fit, three conditions change dimensionality across different runs, between one and two dimensions (O2,
+  odd one out, greebles; O4, odd one out, taxonomic; P1, odd one out, action). For these cases we report the majority over 10 different seeds. This is documented in `seed_stability.py` and `data/dimensionality_seed_stability_published_inputs.csv`.
+- The Experiment 2 subsampling runs (`data/subsampling_analysis-*.csv`) take days to refit. To do so, you need to set the variable `do_simulation = True` in `embedding_analysis_subsampling_P1_P2.ipynb`, which refits them with a fixed seed.
 
 ## Stimuli
 
-The 29 images taken from the THINGS database may not be redistributed and are
-not included. To run the experiment, download `images_THINGS.zip` from
-<https://osf.io/jum2f/>, unzip it, and run from `scripts/`:
+The 29 images taken from the THINGS database are not included in this repository due to licensing reasons. However, you can download the images (file `images_THINGS.zip`) from <https://osf.io/jum2f/>, unzip it, and run from `scripts/`:
 
 ```bash
 python restore_things_images.py <folder with the THINGS images>
@@ -89,7 +64,8 @@ python restore_things_images.py <folder with the THINGS images>
 
 which copies the images into both experiment folders after checking their
 checksums. Sources and licences of all stimuli are in [STIMULI.md](STIMULI.md).
-The analysis does not need the images.
+
+The analysis notebooks do not need the images.
 
 ## Licence
 
