@@ -18,6 +18,7 @@ authors:
     given-names: Felix A.
     orcid: "https://orcid.org/0000-0002-2592-634X"
 repository-code: "https://github.com/wichmann-lab/triplet-similarity"
+doi: "10.5281/zenodo.23377450"
 license:
   - GPL-3.0-only
   - CC-BY-4.0

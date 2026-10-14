@@ -1,5 +1,7 @@
 # Triplet similarity
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23377450.svg)](https://doi.org/10.5281/zenodo.23377450)
+
 Data, code and materials for
 
 > Aguilar, G.\*, Schönmann, I.\*, Mühlbauer, B. F., Künstle, D. E., & Wichmann, F. A. (in review)
@@ -77,4 +79,4 @@ the licences of their sources ([STIMULI.md](STIMULI.md)).
 
 ## Citation
 
-See [CITATION.cff](CITATION.cff).
+See [CITATION.cff](CITATION.cff). This repository is archived on Zenodo: [doi:10.5281/zenodo.23377450](https://doi.org/10.5281/zenodo.23377450).
