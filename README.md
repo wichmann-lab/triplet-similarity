@@ -19,6 +19,8 @@ Data, code and materials for
 | `data/` | Fitted embeddings, cross-validation results and simulation outputs. |
 | `plots/` | Figures. |
 
+The data and file formats are described in the codebook [DATA.md](DATA.md).
+
 ## Reproducing analyses, figures and tables
 
 All analyses ran from notebooks in `scripts/`. Raw data are read only through `scripts/load_data.py::load_all()`, which
