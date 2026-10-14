@@ -1,7 +1,7 @@
 {
   "upload_type": "dataset",
   "title": "Same stimuli, different spaces: data, code and materials",
-  "description": "<p>Data, analysis code and experiment materials for the article <em>Same stimuli, different spaces: how task, observer and amount of data influence geometry and reliability of mental representations</em>.</p><p>Observers judged the similarity of 54 images (three sets of 18: action, taxonomic, greebles) in two triplet tasks, classic and odd one out. The archive contains the PsychoPy experiments, condition files and stimuli, the raw data of every session, the analysis code (Python modules, Jupyter notebooks and unit tests), the fitted ordinal embeddings and cross-validation results, and the figures of the article and its supplementary material. Images from the THINGS database are not included; a script restores them from the THINGS download.</p><p>Data and figures are licensed under CC BY 4.0; the code is licensed under the GNU General Public License v3.0; the stimuli keep the licences of their sources (see STIMULI.md).</p>",
+  "description": "<p>Data, analysis code and experiment materials for the article <em>Same stimuli, different spaces: how task, observer and amount of data influence geometry and reliability of mental representations</em>. Guillermo Aguilar and Inés Schönmann contributed equally.</p><p>Observers judged the similarity of 54 images (three sets of 18: action, taxonomic, greebles) in two triplet tasks, classic and odd one out. The archive contains the PsychoPy experiments, condition files and stimuli, the raw data of every session, the analysis code (Python modules, Jupyter notebooks and unit tests), the fitted ordinal embeddings and cross-validation results, and the figures of the article and its supplementary material. Images from the THINGS database are not included; a script restores them from the THINGS download.</p><p>Data and figures are licensed under CC BY 4.0; the code is licensed under the GNU General Public License v3.0; the stimuli keep the licences of their sources (see STIMULI.md).</p>",
   "creators": [
     {
       "name": "Aguilar, Guillermo",
@@ -10,18 +10,21 @@
     },
     {
       "name": "Schönmann, Inés",
-      "affiliation": "Computational Psychology, Technische Universität Berlin"
+      "affiliation": "Computational Psychology, Technische Universität Berlin",
+      "orcid": "0009-0005-1915-4231"
     },
     {
       "name": "Mühlbauer, Barbara F.",
       "affiliation": "Evolutionary Cognition, Department of Psychology, University of Tübingen"
     },
     {
-      "name": "Künstle, David-Elias"
+      "name": "Künstle, David-Elias",
+      "orcid": "0000-0001-5507-3731"
     },
     {
       "name": "Wichmann, Felix A.",
-      "affiliation": "Neural Information Processing Group, University of Tübingen"
+      "affiliation": "Neural Information Processing Group, University of Tübingen",
+      "orcid": "0000-0002-2592-634X"
     }
   ],
   "license": "cc-by-4.0",

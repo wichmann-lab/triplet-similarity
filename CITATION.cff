@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use these data or this code, please cite the article."
+message: "If you use these data or this code, please cite the article. Guillermo Aguilar and Inés Schönmann contributed equally."
 title: "Same stimuli, different spaces: data, code and materials"
 type: dataset
 authors:
@@ -8,12 +8,15 @@ authors:
     orcid: "https://orcid.org/0000-0003-0970-5720"
   - family-names: Schönmann
     given-names: Inés
+    orcid: "https://orcid.org/0009-0005-1915-4231"
   - family-names: Mühlbauer
     given-names: Barbara F.
   - family-names: Künstle
     given-names: David-Elias
+    orcid: "https://orcid.org/0000-0001-5507-3731"
   - family-names: Wichmann
     given-names: Felix A.
+    orcid: "https://orcid.org/0000-0002-2592-634X"
 repository-code: "https://github.com/wichmann-lab/triplet-similarity"
 license:
   - GPL-3.0-only
@@ -27,9 +30,12 @@ preferred-citation:
       orcid: "https://orcid.org/0000-0003-0970-5720"
     - family-names: Schönmann
       given-names: Inés
+      orcid: "https://orcid.org/0009-0005-1915-4231"
     - family-names: Mühlbauer
       given-names: Barbara F.
     - family-names: Künstle
       given-names: David-Elias
+      orcid: "https://orcid.org/0000-0001-5507-3731"
     - family-names: Wichmann
       given-names: Felix A.
+      orcid: "https://orcid.org/0000-0002-2592-634X"

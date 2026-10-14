@@ -2,8 +2,10 @@
 
 Data, code and materials for
 
-> Aguilar, G., Schönmann, I., Mühlbauer, B. F., Künstle, D. E., & Wichmann, F. A. (in review)
+> Aguilar, G.\*, Schönmann, I.\*, Mühlbauer, B. F., Künstle, D. E., & Wichmann, F. A. (in review)
 > *Same stimuli, different spaces: how task, observer and amount of data influence geometry and reliability of mental representations.*
+>
+> \* Equal contribution.
 
 ## Contents
 
