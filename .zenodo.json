@@ -1,0 +1,39 @@
+{
+  "upload_type": "dataset",
+  "title": "Same stimuli, different spaces: data, code and materials",
+  "description": "<p>Data, analysis code and experiment materials for the article <em>Same stimuli, different spaces: how task, observer and amount of data influence geometry and reliability of mental representations</em>.</p><p>Observers judged the similarity of 54 images (three sets of 18: action, taxonomic, greebles) in two triplet tasks, classic and odd one out. The archive contains the PsychoPy experiments, condition files and stimuli, the raw data of every session, the analysis code (Python modules, Jupyter notebooks and unit tests), the fitted ordinal embeddings and cross-validation results, and the figures of the article and its supplementary material. Images from the THINGS database are not included; a script restores them from the THINGS download.</p><p>Data and figures are licensed under CC BY 4.0; the code is licensed under the GNU General Public License v3.0; the stimuli keep the licences of their sources (see STIMULI.md).</p>",
+  "creators": [
+    {
+      "name": "Aguilar, Guillermo",
+      "affiliation": "Computational Psychology, Technische Universität Berlin",
+      "orcid": "0000-0003-0970-5720"
+    },
+    {
+      "name": "Schönmann, Inés",
+      "affiliation": "Computational Psychology, Technische Universität Berlin"
+    },
+    {
+      "name": "Mühlbauer, Barbara F.",
+      "affiliation": "Evolutionary Cognition, Department of Psychology, University of Tübingen"
+    },
+    {
+      "name": "Künstle, David-Elias"
+    },
+    {
+      "name": "Wichmann, Felix A.",
+      "affiliation": "Neural Information Processing Group, University of Tübingen"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": [
+    "similarity judgements",
+    "triplet comparisons",
+    "odd-one-out",
+    "ordinal embedding",
+    "mental representations",
+    "psychophysics",
+    "reliability",
+    "individual differences"
+  ]
+}
