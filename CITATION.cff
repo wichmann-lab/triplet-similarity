@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use these data or this code, please cite the article."
+title: "Same stimuli, different spaces: data, code and materials"
+type: dataset
+authors:
+  - family-names: Aguilar
+    given-names: Guillermo
+  - family-names: Schönmann
+    given-names: Inés
+  - family-names: Mühlbauer
+    given-names: Barbara F.
+  - family-names: Künstle
+    given-names: David-Elias
+  - family-names: Wichmann
+    given-names: Felix A.
+repository-code: "https://github.com/wichmann-lab/triplet-similarity"
+license:
+  - GPL-3.0-only
+  - CC-BY-4.0
+preferred-citation:
+  type: article
+  title: "Same stimuli, different spaces: how task, observer and amount of data influence geometry and reliability of mental representations"
+  authors:
+    - family-names: Aguilar
+      given-names: Guillermo
+    - family-names: Schönmann
+      given-names: Inés
+    - family-names: Mühlbauer
+      given-names: Barbara F.
+    - family-names: Künstle
+      given-names: David-Elias
+    - family-names: Wichmann
+      given-names: Felix A.
