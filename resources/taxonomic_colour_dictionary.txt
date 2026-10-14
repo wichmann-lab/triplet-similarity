@@ -1,0 +1,10 @@
+tax_colour_dict = {'bee':'gold', 
+                    'branch': 'sienna',
+                   'katydid': 'olive',
+                   'ladybug': 'crimson',
+                   'leaf': 'forestgreen',
+                    'phyllium': 'lime',
+                   'stick_insect': 'lightcoral', 
+                   'tree': 'saddlebrown', 
+                   'tree_trunk':  'saddlebrown',
+                   'wasp':'darkgoldenrod'}

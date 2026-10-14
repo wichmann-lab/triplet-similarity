@@ -1,0 +1,6 @@
+ # generated files
+
+*.js
+*.py
+lib/
+*.html

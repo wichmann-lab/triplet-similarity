@@ -1,0 +1,1128 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2022.2.5">
+  <Settings>
+    <Param val="use prefs" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="use prefs" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s_%s_%s' % (expInfo['experiment'], expInfo['participant'],expInfo['session'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="{'experiment': '[&quot;classic&quot;, &quot;odd one out&quot;]', 'skip training': '[&quot;false&quot;, &quot;true&quot;]', 'participant': 'On', 'session': '1a'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="False" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="2" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="use prefs" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="[1920, 1080]" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="-0.3412, -0.3412, -0.3412" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="object_triplets" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="exp" valType="code" updates="None" name="logging level"/>
+    <Param val="('MIDDLE_BUTTON',)" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+  </Settings>
+  <Routines>
+    <Routine name="Welcome">
+      <TextComponent name="text_welcome">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_welcome" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$welcome_text" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <MouseComponent name="mouse_resp_welcome">
+        <Param val="" valType="list" updates="constant" name="clickable"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="any click" valType="str" updates="constant" name="forceEndRoutineOnPress"/>
+        <Param val="mouse_resp_welcome" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="newClicksOnly"/>
+        <Param val="on click" valType="str" updates="None" name="saveMouseState"/>
+        <Param val="name," valType="list" updates="constant" name="saveParamsClickable"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="mouse onset" valType="str" updates="constant" name="timeRelativeTo"/>
+      </MouseComponent>
+      <CodeComponent name="responsepixx_no_save">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="buttonbox.start();&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="buttonbox.start()" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="resp = buttonbox.getKeys()&amp;#10;if len(resp) &gt; 0:&amp;#10;    last_resp = resp[-1]&amp;#10;    continueRoutine = False&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="resp = buttonbox.getKeys();&amp;#10;if ((resp.length &gt; 0)) {&amp;#10;    last_resp = resp.slice((- 1))[0];&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="buttonbox.stop();&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="buttonbox.stop()&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="responsepixx_no_save" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <KeyboardComponent name="key_resp">
+        <Param val="" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="nothing" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="initialize">
+      <CodeComponent name="load_conditions">
+        <Param val="try:&amp;#10;    from psychopy_pixx.devices import ResponsePixx&amp;#10;    from pypixxlib.viewpixx import VIEWPixx&amp;#10;except  ModuleNotFoundError:&amp;#10;    print(&quot;Pixx not found&quot;)&amp;#10;    class VIEWPixx:&amp;#10;        def setScanningBackLight(self, _):&amp;#10;            pass&amp;#10;            &amp;#10;        def setVideoMode(self, _):&amp;#10;            pass&amp;#10;            &amp;#10;        def updateRegisterCache(self):&amp;#10;            pass&amp;#10;            &amp;#10;        &amp;#10;    class ResponsePixx:&amp;#10;        def __init__(self,pixxdevice, buttons=['red'], events=['down'], lights=True):&amp;#10;            pass&amp;#10;        &amp;#10;        def start(self):&amp;#10;            pass&amp;#10;        &amp;#10;        def stop(self):&amp;#10;            pass&amp;#10;            &amp;#10;        def getKeys(self):&amp;#10;            return []&amp;#10;            &amp;#10;&amp;#10;prefs.general['allowGUI'] = False&amp;#10;" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="&amp;#10;        class VIEWPixx {&amp;#10;        }&amp;#10;        class ResponsePixx {&amp;#10;            constructor(pixxdevice, buttons = [&quot;red&quot;], events = [&quot;down&quot;], lights = true) {&amp;#10;            }&amp;#10;            start() {&amp;#10;            }&amp;#10;            stop() {&amp;#10;            }&amp;#10;            getKeys() {&amp;#10;                return [];&amp;#10;            }&amp;#10;        }&amp;#10;&amp;#10;var old_block = 1;&amp;#10;var trial_progress = &quot;&quot;;" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="par = expInfo['participant']&amp;#10;ses = expInfo['session']&amp;#10;kind = expInfo['experiment']&amp;#10;load = 'conditions/triplets_3x18_session'+ses+'.csv'&amp;#10;if kind == &quot;odd one out&quot;:&amp;#10;    odd_one_out = 1&amp;#10;    classic = 0&amp;#10;    welcome_text = &quot;Please indicate which of the three images is the odd one out\nby pushing the left, top or right button.\n\nPush any button to start a training session.&quot;&amp;#10;    buttons=['red', 'green', 'yellow']&amp;#10;elif kind == &quot;classic&quot;:&amp;#10;    odd_one_out = 0&amp;#10;    classic = 1&amp;#10;    welcome_text = &quot;Please indicate which of the two lower images is more similar to the top one\nby pushing the left or right button.\n\nPush any button to start a training session.&quot;&amp;#10;    buttons=['red', 'green']&amp;#10;    &amp;#10;training = expInfo['skip training']&amp;#10;if training == &quot;false&quot;:&amp;#10;    train = 1&amp;#10;elif training == &quot;true&quot;:&amp;#10;    train = 0&amp;#10;&amp;#10;trialList=data.importConditions(load)&amp;#10;old_block = trialList[0][&quot;block_number&quot;]&amp;#10;trial_progress = &quot;&quot;&amp;#10;&amp;#10;&amp;#10;pixxdevice = VIEWPixx()&amp;#10;pixxdevice.setScanningBackLight(False)&amp;#10;pixxdevice.setVideoMode('C24')&amp;#10;pixxdevice.updateRegisterCache()&amp;#10;buttonbox = ResponsePixx(pixxdevice, buttons=buttons, &amp;#10;                         events=['down'], lights=True)" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="&amp;#10;par = expInfo[&quot;participant&quot;];&amp;#10;ses = expInfo[&quot;session&quot;];&amp;#10;kind = expInfo[&quot;experiment&quot;];&amp;#10;load = ((&quot;conditions/triplets_3x18_session&quot; + ses) + &quot;.csv&quot;);&amp;#10;if ((kind === &quot;odd one out&quot;)) {&amp;#10;    odd_one_out = 1;&amp;#10;    classic = 0;&amp;#10;    welcome_text = &quot;Please indicate which of the three images is the odd one out\nby pushing the left, top or right button.\n\nPush any button to start a training session.&quot;;&amp;#10;    buttons = [&quot;red&quot;, &quot;green&quot;, &quot;yellow&quot;];&amp;#10;} else {&amp;#10;    if ((kind === &quot;classic&quot;)) {&amp;#10;        odd_one_out = 0;&amp;#10;        classic = 1;&amp;#10;        welcome_text = &quot;Please indicate which of the two lower images is more similar to the top one\nby pushing the left or right button.\n\nPush any button to start a training session.&quot;;&amp;#10;        buttons = [&quot;red&quot;, &quot;green&quot;];&amp;#10;    }&amp;#10;}&amp;#10;training = expInfo[&quot;skip training&quot;];&amp;#10;if ((training === &quot;false&quot;)) {&amp;#10;    train = 1;&amp;#10;} else {&amp;#10;    if ((training === &quot;true&quot;)) {&amp;#10;        train = 0;&amp;#10;    }&amp;#10;}&amp;#10;pixxdevice = new VIEWPixx();&amp;#10;buttonbox = new ResponsePixx(pixxdevice, {&quot;buttons&quot;: buttons, &quot;events&quot;: [&quot;down&quot;], &quot;lights&quot;: true});&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="load_conditions" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <ResourceManagerComponent name="resources">
+        <Param val="Start and Check" valType="str" updates="None" name="actionType"/>
+        <Param val="False" valType="bool" updates="None" name="checkAll"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="resources" valType="code" updates="None" name="name"/>
+        <Param val="['images/bee_01b.jpg', 'images/bee_10s.jpg', 'images/branch_09s.jpg', 'images/coin_12s.jpg', 'images/coin_14s.jpg', 'images/coin_additional.jpg', 'images/fam1_f1_v1_ver25.png', 'images/fam1_f1_v2_ver25.png', 'images/fam1_f4_v1_ver25.png', 'images/fam1_f4_v2_ver25.png', 'images/fam1_f6_v1_ver25.png', 'images/fam1_f6_v2_ver25.png', 'images/fam1_m5_v1_ver25.png', 'images/fam1_m5_v2_ver25.png', 'images/fam1_m7_v1_ver25.png', 'images/fam1_m7_v2_ver25.png', 'images/fam1_m8_v1_ver25.png', 'images/fam1_m8_v2_ver25.png', 'images/fam3_f1_v1_ver25.png', 'images/fam3_f1_v2_ver25.png', 'images/fam3_f2_v1_ver25.png', 'images/fam3_f2_v2_ver25.png', 'images/fam3_f7_v1_ver25.png', 'images/fam3_f7_v2_ver25.png', 'images/fam3_m1_v1_ver25.png', 'images/fam3_m1_v2_ver25.png', 'images/fam3_m3_v1_ver25.png', 'images/fam3_m3_v2_ver25.png', 'images/fam3_m4_v1_ver25.png', 'images/fam3_m4_v2_ver25.png', 'images/fam5_f4_v1_ver25.png', 'images/fam5_f4_v2_ver25.png', 'images/fam5_f6_v1_ver25.png', 'images/fam5_f6_v2_ver25.png', 'images/fam5_f10_v1_ver25.png', 'images/fam5_f10_v2_ver25.png', 'images/fam5_m1_v1_ver25.png', 'images/fam5_m1_v2_ver25.png', 'images/fam5_m3_v1_ver25.png', 'images/fam5_m3_v2_ver25.png', 'images/fam5_m6_v1_ver25.png', 'images/fam5_m6_v2_ver25.png', 'images/katydid_07.jpg', 'images/katydid_10.jpg', 'images/key_03s.jpg', 'images/key_07s.jpg', 'images/key_08s.jpg', 'images/key_14s.jpg', 'images/ladybug_02s.jpg', 'images/ladybug_07s.jpg', 'images/leaf_02s.jpg', 'images/leaf_06s.jpg', 'images/leaf_07s.jpg', 'images/letter_opener_01b.jpg', 'images/letter_opener_06s.jpg', 'images/letter_opener_10s.jpg', 'images/match_01b.jpg', 'images/match_04s.jpg', 'images/matchbox_01b.jpg', 'images/phyllium_05.jpg', 'images/phyllium_14.jpg', 'images/screwdriver_01s.jpg', 'images/screwdriver_03s.jpg', 'images/screwdriver_04s.jpg', 'images/screwdriver_12s.jpg', 'images/screwdriver_13s.jpg', 'images/stick_insect_01.jpg', 'images/stick_insect_09.jpg', 'images/tree_07s.jpg', 'images/tree_trunk_06s.jpg', 'images/wasp_03s.jpg', 'images/wasp_06s.jpg']" valType="list" updates="constant" name="resources"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+      </ResourceManagerComponent>
+    </Routine>
+    <Routine name="trial_ooo">
+      <TextComponent name="progress_indicator_o">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="20" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="progress_indicator_o" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(800,-500)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="10" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$trial_progress" valType="str" updates="set every repeat" name="text"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="set_imgs_buttons_o">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="if ((is_left === 1)) {&amp;#10;    position_im1 = [(- 400), (- 296)];&amp;#10;    position_but1 = [(- 400), (- 296)];&amp;#10;    position_im2 = [400, (- 296)];&amp;#10;    position_but2 = [400, (- 296)];&amp;#10;} else {&amp;#10;    position_im1 = [400, (- 296)];&amp;#10;    position_but1 = [400, (- 296)];&amp;#10;    position_im2 = [(- 400), (- 296)];&amp;#10;    position_but2 = [(- 400), (- 296)];&amp;#10;}&amp;#10;mid = (&quot;images/&quot; + middle);&amp;#10;im1 = (&quot;images/&quot; + image1);&amp;#10;im2 = (&quot;images/&quot; + image2);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if is_left==1:&amp;#10;    position_im1 = (-400 ,-296)&amp;#10;    position_but1 = (-400, -296)&amp;#10;    position_im2 = (400, -296)&amp;#10;    position_but2 = (400, -296)&amp;#10;else:&amp;#10;    position_im1 = (400, -296)&amp;#10;    position_but1 = (400, -296)&amp;#10;    position_im2 = (-400, -296)&amp;#10;    position_but2 = (-400, -296)&amp;#10;&amp;#10;mid = &quot;images/&quot;+middle&amp;#10;im1 = &quot;images/&quot;+image1&amp;#10;im2 = &quot;images/&quot;+image2" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="set_imgs_buttons_o" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <ImageComponent name="middle_image_o">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$mid" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="middle_image_o" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 296)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(400,400)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="time (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="10" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+      <ImageComponent name="image_1_o">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$im1" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="image_1_o" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="position_im1" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(400, 400)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="10" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+      <ImageComponent name="image_2_o">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$im2" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="image_2_o" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="position_im2" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(400, 400)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="10" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+      <ButtonComponent name="button_1_o">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="True" valType="bool" updates="constant" name="bold"/>
+        <Param val="None" valType="color" updates="constant" name="borderColor"/>
+        <Param val="0" valType="num" updates="constant" name="borderWidth"/>
+        <Param val="" valType="extendedCode" updates="constant" name="callback"/>
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="darkgrey" valType="color" updates="constant" name="fillColor"/>
+        <Param val="Arvo" valType="str" updates="constant" name="font"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="False" valType="bool" updates="constant" name="italic"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="button_1_o" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="oncePerClick"/>
+        <Param val="0" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="" valType="num" updates="constant" name="padding"/>
+        <Param val="position_but1" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="every click" valType="str" updates="None" name="save"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(400,400)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="10" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="1" valType="str" updates="constant" name="text"/>
+        <Param val="button onset" valType="str" updates="constant" name="timeRelativeTo"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+      </ButtonComponent>
+      <ButtonComponent name="button_2_o">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="True" valType="bool" updates="constant" name="bold"/>
+        <Param val="None" valType="color" updates="constant" name="borderColor"/>
+        <Param val="0" valType="num" updates="constant" name="borderWidth"/>
+        <Param val="" valType="extendedCode" updates="constant" name="callback"/>
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="darkgrey" valType="color" updates="constant" name="fillColor"/>
+        <Param val="Arvo" valType="str" updates="constant" name="font"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="False" valType="bool" updates="constant" name="italic"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="button_2_o" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="oncePerClick"/>
+        <Param val="0" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="" valType="num" updates="constant" name="padding"/>
+        <Param val="position_but2" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="every click" valType="str" updates="None" name="save"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(400,400)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="10" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="2" valType="str" updates="constant" name="text"/>
+        <Param val="button onset" valType="str" updates="constant" name="timeRelativeTo"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+      </ButtonComponent>
+      <ButtonComponent name="middle_button">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="True" valType="bool" updates="constant" name="bold"/>
+        <Param val="None" valType="color" updates="constant" name="borderColor"/>
+        <Param val="0" valType="num" updates="constant" name="borderWidth"/>
+        <Param val="" valType="extendedCode" updates="constant" name="callback"/>
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="darkgrey" valType="color" updates="constant" name="fillColor"/>
+        <Param val="Arvo" valType="str" updates="constant" name="font"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="False" valType="bool" updates="constant" name="italic"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="middle_button" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="oncePerClick"/>
+        <Param val="0" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="" valType="num" updates="constant" name="padding"/>
+        <Param val="(0, 346)" valType="list" updates="constant" name="pos"/>
+        <Param val="every click" valType="str" updates="None" name="save"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(400,400)" valType="list" updates="set every repeat" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="10" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="middle" valType="str" updates="constant" name="text"/>
+        <Param val="button onset" valType="str" updates="constant" name="timeRelativeTo"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+      </ButtonComponent>
+      <CodeComponent name="responsepixx_save_2">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="buttonbox.start();&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="buttonbox.start()" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="resp = buttonbox.getKeys()&amp;#10;if len(resp) &gt; 0:&amp;#10;    last_resp = resp[-1]&amp;#10;    continueRoutine = False&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="resp = buttonbox.getKeys();&amp;#10;if ((resp.length &gt; 0)) {&amp;#10;    last_resp = resp.slice((- 1))[0];&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="buttonbox.stop();&amp;#10;if ((resp.length &gt; 0)) {&amp;#10;    currentLoop.addData(&quot;resp.key&quot;, last_resp[&quot;name&quot;]);&amp;#10;    currentLoop.addData(&quot;resp.rt&quot;, last_resp[&quot;time&quot;]);&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="buttonbox.stop()&amp;#10;if len(resp) &gt; 0:&amp;#10;    currentLoop.addData('resp.key', last_resp['name'])  # replace trials by the routine's name&amp;#10;    currentLoop.addData('resp.rt', last_resp['time'])" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="responsepixx_save_2" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <KeyboardComponent name="key_resp_trial_ooo">
+        <Param val="'left','right','up'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_trial_ooo" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="10" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="blank_300">
+      <PolygonComponent name="fixation_cross_2">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="white" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="fixation_cross_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="cross" valType="str" updates="None" name="shape"/>
+        <Param val="(20, 20)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.3" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <TextComponent name="progress_indcator_fix">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="20" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="progress_indcator_fix" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(800,-500)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.3" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$trial_progress" valType="str" updates="set every repeat" name="text"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="trial_classic">
+      <TextComponent name="progress_indicator_trial_c">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="20" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="progress_indicator_trial_c" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(800,-500)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="10" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$trial_progress" valType="str" updates="set every repeat" name="text"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="set_imgs_buttons_c">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="if ((is_left === 1)) {&amp;#10;    position_im1 = [(- 400), (- 296)];&amp;#10;    position_but1 = [(- 400), (- 296)];&amp;#10;    position_im2 = [400, (- 296)];&amp;#10;    position_but2 = [400, (- 296)];&amp;#10;} else {&amp;#10;    position_im1 = [400, (- 296)];&amp;#10;    position_but1 = [400, (- 296)];&amp;#10;    position_im2 = [(- 400), (- 296)];&amp;#10;    position_but2 = [(- 400), (- 296)];&amp;#10;}&amp;#10;mid = (&quot;images/&quot; + middle);&amp;#10;im1 = (&quot;images/&quot; + image1);&amp;#10;im2 = (&quot;images/&quot; + image2);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if is_left==1:&amp;#10;    position_im1 = (-400 ,-296)&amp;#10;    position_but1 = (-400, -296)&amp;#10;    position_im2 = (400, -296)&amp;#10;    position_but2 = (400, -296)&amp;#10;else:&amp;#10;    position_im1 = (400, -296)&amp;#10;    position_but1 = (400, -296)&amp;#10;    position_im2 = (-400, -296)&amp;#10;    position_but2 = (-400, -296)&amp;#10;&amp;#10;mid = &quot;images/&quot;+middle&amp;#10;im1 = &quot;images/&quot;+image1&amp;#10;im2 = &quot;images/&quot;+image2" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="set_imgs_buttons_c" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <ImageComponent name="middle_image_c">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$mid" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="middle_image_c" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 296)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(400,400)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="time (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="10" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+      <ImageComponent name="image_1_c">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$im1" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="image_1_c" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="position_im1" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(400, 400)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="10" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+      <ImageComponent name="image_2_c">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$im2" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="image_2_c" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="position_im2" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(400, 400)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="10" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+      <ButtonComponent name="button_1_c">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="True" valType="bool" updates="constant" name="bold"/>
+        <Param val="None" valType="color" updates="constant" name="borderColor"/>
+        <Param val="0" valType="num" updates="constant" name="borderWidth"/>
+        <Param val="" valType="extendedCode" updates="constant" name="callback"/>
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="darkgrey" valType="color" updates="constant" name="fillColor"/>
+        <Param val="Arvo" valType="str" updates="constant" name="font"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="False" valType="bool" updates="constant" name="italic"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="button_1_c" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="oncePerClick"/>
+        <Param val="0" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="" valType="num" updates="constant" name="padding"/>
+        <Param val="position_but1" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="every click" valType="str" updates="None" name="save"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(400,400)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="10" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="1" valType="str" updates="constant" name="text"/>
+        <Param val="button onset" valType="str" updates="constant" name="timeRelativeTo"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+      </ButtonComponent>
+      <ButtonComponent name="button_2_c">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="True" valType="bool" updates="constant" name="bold"/>
+        <Param val="None" valType="color" updates="constant" name="borderColor"/>
+        <Param val="0" valType="num" updates="constant" name="borderWidth"/>
+        <Param val="" valType="extendedCode" updates="constant" name="callback"/>
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="darkgrey" valType="color" updates="constant" name="fillColor"/>
+        <Param val="Arvo" valType="str" updates="constant" name="font"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="False" valType="bool" updates="constant" name="italic"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="button_2_c" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="oncePerClick"/>
+        <Param val="0" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="" valType="num" updates="constant" name="padding"/>
+        <Param val="position_but2" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="every click" valType="str" updates="None" name="save"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(400,400)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="10" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="2" valType="str" updates="constant" name="text"/>
+        <Param val="button onset" valType="str" updates="constant" name="timeRelativeTo"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+      </ButtonComponent>
+      <CodeComponent name="responsepixx_save">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="buttonbox.start();&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="buttonbox.start()" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="resp = buttonbox.getKeys()&amp;#10;if len(resp) &gt; 0:&amp;#10;    last_resp = resp[-1]&amp;#10;    continueRoutine = False&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="resp = buttonbox.getKeys();&amp;#10;if ((resp.length &gt; 0)) {&amp;#10;    last_resp = resp.slice((- 1))[0];&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="buttonbox.stop();&amp;#10;if ((resp.length &gt; 0)) {&amp;#10;    currentLoop.addData(&quot;resp.key&quot;, last_resp[&quot;name&quot;]);&amp;#10;    currentLoop.addData(&quot;resp.rt&quot;, last_resp[&quot;time&quot;]);&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="buttonbox.stop()&amp;#10;if len(resp) &gt; 0:&amp;#10;    currentLoop.addData('resp.key', last_resp['name'])  # replace trials by the routine's name&amp;#10;    currentLoop.addData('resp.rt', last_resp['time'])" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="responsepixx_save" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <KeyboardComponent name="key_resp_trial_classic">
+        <Param val="'left','right'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_trial_classic" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="10" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="trial_break">
+      <TextComponent name="break_text">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="break_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Take a break.&amp;#10;Push a button to continue.&amp;#10;" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <MouseComponent name="break_mouse">
+        <Param val="" valType="list" updates="constant" name="clickable"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="any click" valType="str" updates="constant" name="forceEndRoutineOnPress"/>
+        <Param val="break_mouse" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="newClicksOnly"/>
+        <Param val="on click" valType="str" updates="None" name="saveMouseState"/>
+        <Param val="name," valType="list" updates="constant" name="saveParamsClickable"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="mouse onset" valType="str" updates="constant" name="timeRelativeTo"/>
+      </MouseComponent>
+      <TextComponent name="progress_indicator_break">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="20" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="progress_indicator_break" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0,-500)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$block_progress" valType="str" updates="set every repeat" name="text"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="responsepixx_no_save_3">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="buttonbox.start();&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="buttonbox.start()" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="resp = buttonbox.getKeys()&amp;#10;if len(resp) &gt; 0:&amp;#10;    last_resp = resp[-1]&amp;#10;    continueRoutine = False&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="resp = buttonbox.getKeys();&amp;#10;if ((resp.length &gt; 0)) {&amp;#10;    last_resp = resp.slice((- 1))[0];&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="buttonbox.stop();&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="buttonbox.stop()&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="responsepixx_no_save_3" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <CodeComponent name="save_data">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="psychoJS.experiment.saveAsWideText((filename + &quot;.csv&quot;), {&quot;delim&quot;: &quot;auto&quot;});&amp;#10;psychoJS.experiment.saveAsPickle(filename);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="thisExp.saveAsWideText(filename+'.csv', delim='auto')&amp;#10;thisExp.saveAsPickle(filename)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="save_data" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <KeyboardComponent name="key_resp_3">
+        <Param val="" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_3" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="nothing" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="end_training">
+      <TextComponent name="end_training_text">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="end_training_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="This is the end of the training.&amp;#10;Push a button to start the experiment." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <MouseComponent name="end_training_mouse">
+        <Param val="" valType="list" updates="constant" name="clickable"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="any click" valType="str" updates="constant" name="forceEndRoutineOnPress"/>
+        <Param val="end_training_mouse" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="newClicksOnly"/>
+        <Param val="on click" valType="str" updates="None" name="saveMouseState"/>
+        <Param val="name," valType="list" updates="constant" name="saveParamsClickable"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="mouse onset" valType="str" updates="constant" name="timeRelativeTo"/>
+      </MouseComponent>
+      <CodeComponent name="responsepixx_no_save_2">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="buttonbox.start();&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="buttonbox.start()" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="resp = buttonbox.getKeys()&amp;#10;if len(resp) &gt; 0:&amp;#10;    last_resp = resp[-1]&amp;#10;    continueRoutine = False&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="resp = buttonbox.getKeys();&amp;#10;if ((resp.length &gt; 0)) {&amp;#10;    last_resp = resp.slice((- 1))[0];&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="buttonbox.stop();&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="buttonbox.stop()&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="responsepixx_no_save_2" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <KeyboardComponent name="key_resp_2">
+        <Param val="" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="nothing" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="check_block">
+      <CodeComponent name="check_block_code_classic">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="if ((block_number !== old_block)) {&amp;#10;    do_break = 1;&amp;#10;    old_block = block_number;&amp;#10;} else {&amp;#10;    do_break = 0;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if block_number != old_block:&amp;#10;    do_break = 1&amp;#10;    old_block = block_number&amp;#10;else:&amp;#10;    do_break = 0" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="check_block_code_classic" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="progress_ind_classic">
+      <CodeComponent name="progress_indictor_code_c">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="n_trial = classic_trials.thisTrialN&amp;#10;next_trials = classic_trials.trialList[n_trial+1:]&amp;#10;this_trial = classic_trials.trialList[n_trial]&amp;#10;n_rem = 1&amp;#10;&amp;#10;for i in next_trials:&amp;#10;    if i[&quot;block_number&quot;] == this_trial[&quot;block_number&quot;]:&amp;#10;        n_rem += 1&amp;#10;    else:&amp;#10;        break&amp;#10;&amp;#10;n_total = classic_trials.nTotal&amp;#10;blocks = classic_trials.trialList[n_total-1][&quot;block_number&quot;]&amp;#10;&amp;#10;trial_progress = &quot;Trials to next break: &quot; + str(n_rem)&amp;#10;block_progress = &quot;Block &quot; + str(old_block+1) + &quot; of &quot; +str(blocks)&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="progress_indictor_code_c" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="progress_ind_ooo">
+      <CodeComponent name="progress_indictor_code_o">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="n_trial = ooo_trials.thisTrialN&amp;#10;next_trials = ooo_trials.trialList[n_trial+1:]&amp;#10;this_trial = ooo_trials.trialList[n_trial]&amp;#10;n_rem = 1&amp;#10;&amp;#10;for i in next_trials:&amp;#10;    if i[&quot;block_number&quot;] == this_trial[&quot;block_number&quot;]:&amp;#10;        n_rem += 1&amp;#10;    else:&amp;#10;        break&amp;#10;&amp;#10;n_total = ooo_trials.nTotal&amp;#10;blocks = ooo_trials.trialList[n_total-1][&quot;block_number&quot;]&amp;#10;&amp;#10;trial_progress = &quot;Trials to next break: &quot; + str(n_rem)&amp;#10;block_progress = &quot;Block &quot; + str(old_block+1) + &quot; of &quot; +str(blocks)&amp;#10;&amp;#10;        &amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="progress_indictor_code_o" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="initialize"/>
+    <Routine name="Welcome"/>
+    <LoopInitiator loopType="TrialHandler" name="do_classic_trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="False" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="classic" valType="num"/>
+      <Param name="name" updates="None" val="do_classic_trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <LoopInitiator loopType="TrialHandler" name="test_trials_classic">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('triplet_index', 1770), ('image1', 'key_08s.jpg'), ('middle', 'letter_opener_01b.jpg'), ('image2', 'screwdriver_13s.jpg'), ('image1_index', 5), ('middle_index', 7), ('image2_index', 17), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 2374), ('image1', 'fam5_m3_v1_ver25.png'), ('middle', 'fam1_m5_v1_ver25.png'), ('image2', 'fam3_f1_v1_ver25.png'), ('image1_index', 17), ('middle_index', 3), ('image2_index', 6), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1039), ('image1', 'wasp_03s.jpg'), ('middle', 'branch_09s.jpg'), ('image2', 'ladybug_07s.jpg'), ('image1_index', 16), ('middle_index', 2), ('image2_index', 6), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1982), ('image1', 'fam1_f4_v1_ver25.png'), ('middle', 'fam1_f1_v1_ver25.png'), ('image2', 'fam5_f10_v1_ver25.png'), ('image1_index', 2), ('middle_index', 0), ('image2_index', 12), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1433), ('image1', 'screwdriver_04s.jpg'), ('middle', 'coin_additional.jpg'), ('image2', 'matchbox_01b.jpg'), ('image1_index', 15), ('middle_index', 2), ('image2_index', 10), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 146), ('image1', 'bee_10s.jpg'), ('middle', 'katydid_07.jpg'), ('image2', 'phyllium_14.jpg'), ('image1_index', 1), ('middle_index', 3), ('image2_index', 11), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 989), ('image1', 'ladybug_02s.jpg'), ('middle', 'katydid_07.jpg'), ('image2', 'ladybug_07s.jpg'), ('image1_index', 5), ('middle_index', 3), ('image2_index', 6), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1728), ('image1', 'key_08s.jpg'), ('middle', 'letter_opener_01b.jpg'), ('image2', 'match_01b.jpg'), ('image1_index', 5), ('middle_index', 7), ('image2_index', 11), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 474), ('image1', 'screwdriver_13s.jpg'), ('middle', 'coin_additional.jpg'), ('image2', 'screwdriver_12s.jpg'), ('image1_index', 17), ('middle_index', 2), ('image2_index', 16), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1397), ('image1', 'key_03s.jpg'), ('middle', 'key_07s.jpg'), ('image2', 'match_01b.jpg'), ('image1_index', 3), ('middle_index', 4), ('image2_index', 11), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 2247), ('image1', 'katydid_10.jpg'), ('middle', 'bee_10s.jpg'), ('image2', 'stick_insect_01.jpg'), ('image1_index', 4), ('middle_index', 1), ('image2_index', 12), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 2378), ('image1', 'letter_opener_10s.jpg'), ('middle', 'letter_opener_01b.jpg'), ('image2', 'match_01b.jpg'), ('image1_index', 9), ('middle_index', 7), ('image2_index', 11), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 417), ('image1', 'coin_12s.jpg'), ('middle', 'letter_opener_06s.jpg'), ('image2', 'match_04s.jpg'), ('image1_index', 0), ('middle_index', 8), ('image2_index', 12), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1707), ('image1', 'stick_insect_01.jpg'), ('middle', 'branch_09s.jpg'), ('image2', 'wasp_06s.jpg'), ('image1_index', 12), ('middle_index', 2), ('image2_index', 17), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1050), ('image1', 'leaf_06s.jpg'), ('middle', 'bee_10s.jpg'), ('image2', 'tree_07s.jpg'), ('image1_index', 8), ('middle_index', 1), ('image2_index', 14), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1038), ('image1', 'branch_09s.jpg'), ('middle', 'leaf_02s.jpg'), ('image2', 'leaf_06s.jpg'), ('image1_index', 2), ('middle_index', 7), ('image2_index', 8), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 526), ('image1', 'fam1_f4_v1_ver25.png'), ('middle', 'fam5_m1_v2_ver25.png'), ('image2', 'fam5_m3_v1_ver25.png'), ('image1_index', 2), ('middle_index', 16), ('image2_index', 17), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1171), ('image1', 'leaf_02s.jpg'), ('middle', 'branch_09s.jpg'), ('image2', 'stick_insect_09.jpg'), ('image1_index', 7), ('middle_index', 2), ('image2_index', 13), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 2314), ('image1', 'fam1_m7_v1_ver25.png'), ('middle', 'fam1_f1_v1_ver25.png'), ('image2', 'fam5_m1_v1_ver25.png'), ('image1_index', 5), ('middle_index', 0), ('image2_index', 15), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 2270), ('image1', 'wasp_03s.jpg'), ('middle', 'katydid_10.jpg'), ('image2', 'stick_insect_09.jpg'), ('image1_index', 16), ('middle_index', 4), ('image2_index', 13), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1681), ('image1', 'fam5_f4_v1_ver25.png'), ('middle', 'fam1_f4_v1_ver25.png'), ('image2', 'fam5_f10_v2_ver25.png'), ('image1_index', 14), ('middle_index', 2), ('image2_index', 13), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1205), ('image1', 'screwdriver_03s.jpg'), ('middle', 'letter_opener_01b.jpg'), ('image2', 'screwdriver_01s.jpg'), ('image1_index', 14), ('middle_index', 7), ('image2_index', 13), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 2298), ('image1', 'key_14s.jpg'), ('middle', 'coin_14s.jpg'), ('image2', 'key_03s.jpg'), ('image1_index', 6), ('middle_index', 1), ('image2_index', 3), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1009), ('image1', 'matchbox_01b.jpg'), ('middle', 'letter_opener_01b.jpg'), ('image2', 'screwdriver_01s.jpg'), ('image1_index', 10), ('middle_index', 7), ('image2_index', 13), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1126), ('image1', 'bee_01b.jpg'), ('middle', 'katydid_07.jpg'), ('image2', 'katydid_10.jpg'), ('image1_index', 0), ('middle_index', 3), ('image2_index', 4), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1421), ('image1', 'match_01b.jpg'), ('middle', 'key_07s.jpg'), ('image2', 'letter_opener_06s.jpg'), ('image1_index', 11), ('middle_index', 4), ('image2_index', 8), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1457), ('image1', 'fam3_m1_v1_ver25.png'), ('middle', 'fam3_f1_v1_ver25.png'), ('image2', 'fam3_m1_v2_ver25.png'), ('image1_index', 9), ('middle_index', 6), ('image2_index', 10), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 2307), ('image1', 'tree_07s.jpg'), ('middle', 'bee_10s.jpg'), ('image2', 'wasp_06s.jpg'), ('image1_index', 14), ('middle_index', 1), ('image2_index', 17), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1652), ('image1', 'key_07s.jpg'), ('middle', 'key_03s.jpg'), ('image2', 'screwdriver_13s.jpg'), ('image1_index', 4), ('middle_index', 3), ('image2_index', 17), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1335), ('image1', 'screwdriver_04s.jpg'), ('middle', 'screwdriver_12s.jpg'), ('image2', 'screwdriver_13s.jpg'), ('image1_index', 15), ('middle_index', 16), ('image2_index', 17), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1281), ('image1', 'screwdriver_03s.jpg'), ('middle', 'key_07s.jpg'), ('image2', 'letter_opener_01b.jpg'), ('image1_index', 14), ('middle_index', 4), ('image2_index', 7), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 620), ('image1', 'bee_01b.jpg'), ('middle', 'katydid_07.jpg'), ('image2', 'stick_insect_01.jpg'), ('image1_index', 0), ('middle_index', 3), ('image2_index', 12), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1976), ('image1', 'key_14s.jpg'), ('middle', 'key_03s.jpg'), ('image2', 'letter_opener_06s.jpg'), ('image1_index', 6), ('middle_index', 3), ('image2_index', 8), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 2039), ('image1', 'katydid_10.jpg'), ('middle', 'stick_insect_09.jpg'), ('image2', 'tree_trunk_06s.jpg'), ('image1_index', 4), ('middle_index', 13), ('image2_index', 15), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1346), ('image1', 'fam3_m3_v1_ver25.png'), ('middle', 'fam3_f1_v2_ver25.png'), ('image2', 'fam5_f10_v2_ver25.png'), ('image1_index', 11), ('middle_index', 7), ('image2_index', 13), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1591), ('image1', 'ladybug_07s.jpg'), ('middle', 'leaf_02s.jpg'), ('image2', 'leaf_07s.jpg'), ('image1_index', 6), ('middle_index', 7), ('image2_index', 9), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 2044), ('image1', 'screwdriver_13s.jpg'), ('middle', 'letter_opener_01b.jpg'), ('image2', 'matchbox_01b.jpg'), ('image1_index', 17), ('middle_index', 7), ('image2_index', 10), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1753), ('image1', 'fam3_m1_v2_ver25.png'), ('middle', 'fam3_f2_v1_ver25.png'), ('image2', 'fam5_m1_v2_ver25.png'), ('image1_index', 10), ('middle_index', 8), ('image2_index', 16), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1716), ('image1', 'screwdriver_13s.jpg'), ('middle', 'key_07s.jpg'), ('image2', 'key_14s.jpg'), ('image1_index', 17), ('middle_index', 4), ('image2_index', 6), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 306), ('image1', 'bee_10s.jpg'), ('middle', 'stick_insect_09.jpg'), ('image2', 'tree_trunk_06s.jpg'), ('image1_index', 1), ('middle_index', 13), ('image2_index', 15), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1996), ('image1', 'ladybug_02s.jpg'), ('middle', 'ladybug_07s.jpg'), ('image2', 'leaf_02s.jpg'), ('image1_index', 5), ('middle_index', 6), ('image2_index', 7), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1909), ('image1', 'branch_09s.jpg'), ('middle', 'ladybug_02s.jpg'), ('image2', 'phyllium_14.jpg'), ('image1_index', 2), ('middle_index', 5), ('image2_index', 11), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 357), ('image1', 'fam1_m7_v1_ver25.png'), ('middle', 'fam1_f4_v1_ver25.png'), ('image2', 'fam3_f1_v1_ver25.png'), ('image1_index', 5), ('middle_index', 2), ('image2_index', 6), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1562), ('image1', 'bee_01b.jpg'), ('middle', 'ladybug_02s.jpg'), ('image2', 'ladybug_07s.jpg'), ('image1_index', 0), ('middle_index', 5), ('image2_index', 6), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1329), ('image1', 'katydid_07.jpg'), ('middle', 'bee_10s.jpg'), ('image2', 'branch_09s.jpg'), ('image1_index', 3), ('middle_index', 1), ('image2_index', 2), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 2274), ('image1', 'fam3_m3_v1_ver25.png'), ('middle', 'fam3_m1_v2_ver25.png'), ('image2', 'fam5_m1_v1_ver25.png'), ('image1_index', 11), ('middle_index', 10), ('image2_index', 15), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1599), ('image1', 'fam1_m5_v1_ver25.png'), ('middle', 'fam1_m7_v1_ver25.png'), ('image2', 'fam5_f10_v2_ver25.png'), ('image1_index', 3), ('middle_index', 5), ('image2_index', 13), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1551), ('image1', 'fam3_m3_v1_ver25.png'), ('middle', 'fam1_f4_v1_ver25.png'), ('image2', 'fam5_f4_v1_ver25.png'), ('image1_index', 11), ('middle_index', 2), ('image2_index', 14), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 2358), ('image1', 'letter_opener_10s.jpg'), ('middle', 'key_03s.jpg'), ('image2', 'match_04s.jpg'), ('image1_index', 9), ('middle_index', 3), ('image2_index', 12), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 118), ('image1', 'wasp_03s.jpg'), ('middle', 'branch_09s.jpg'), ('image2', 'tree_trunk_06s.jpg'), ('image1_index', 16), ('middle_index', 2), ('image2_index', 15), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 476), ('image1', 'fam1_f1_v2_ver25.png'), ('middle', 'fam3_m1_v1_ver25.png'), ('image2', 'fam5_m3_v1_ver25.png'), ('image1_index', 1), ('middle_index', 9), ('image2_index', 17), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 241), ('image1', 'phyllium_05.jpg'), ('middle', 'stick_insect_09.jpg'), ('image2', 'tree_trunk_06s.jpg'), ('image1_index', 10), ('middle_index', 13), ('image2_index', 15), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 852), ('image1', 'fam3_m1_v2_ver25.png'), ('middle', 'fam3_f1_v1_ver25.png'), ('image2', 'fam5_m1_v1_ver25.png'), ('image1_index', 10), ('middle_index', 6), ('image2_index', 15), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 2286), ('image1', 'tree_trunk_06s.jpg'), ('middle', 'bee_01b.jpg'), ('image2', 'ladybug_02s.jpg'), ('image1_index', 15), ('middle_index', 0), ('image2_index', 5), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 2415), ('image1', 'fam5_f10_v1_ver25.png'), ('middle', 'fam3_f1_v2_ver25.png'), ('image2', 'fam3_m3_v1_ver25.png'), ('image1_index', 12), ('middle_index', 7), ('image2_index', 11), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1910), ('image1', 'fam5_f4_v1_ver25.png'), ('middle', 'fam3_f1_v2_ver25.png'), ('image2', 'fam3_m1_v2_ver25.png'), ('image1_index', 14), ('middle_index', 7), ('image2_index', 10), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 359), ('image1', 'letter_opener_06s.jpg'), ('middle', 'key_14s.jpg'), ('image2', 'screwdriver_01s.jpg'), ('image1_index', 8), ('middle_index', 6), ('image2_index', 13), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1123), ('image1', 'fam5_f10_v1_ver25.png'), ('middle', 'fam1_m5_v2_ver25.png'), ('image2', 'fam3_f1_v1_ver25.png'), ('image1_index', 12), ('middle_index', 4), ('image2_index', 6), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 907), ('image1', 'leaf_02s.jpg'), ('middle', 'katydid_07.jpg'), ('image2', 'tree_trunk_06s.jpg'), ('image1_index', 7), ('middle_index', 3), ('image2_index', 15), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1512), ('image1', 'tree_trunk_06s.jpg'), ('middle', 'bee_10s.jpg'), ('image2', 'leaf_06s.jpg'), ('image1_index', 15), ('middle_index', 1), ('image2_index', 8), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1419), ('image1', 'fam1_m5_v2_ver25.png'), ('middle', 'fam5_f10_v1_ver25.png'), ('image2', 'fam5_f10_v2_ver25.png'), ('image1_index', 4), ('middle_index', 12), ('image2_index', 13), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 225), ('image1', 'stick_insect_01.jpg'), ('middle', 'ladybug_07s.jpg'), ('image2', 'tree_07s.jpg'), ('image1_index', 12), ('middle_index', 6), ('image2_index', 14), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 138), ('image1', 'wasp_06s.jpg'), ('middle', 'branch_09s.jpg'), ('image2', 'wasp_03s.jpg'), ('image1_index', 17), ('middle_index', 2), ('image2_index', 16), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 801), ('image1', 'fam3_m1_v2_ver25.png'), ('middle', 'fam3_m3_v1_ver25.png'), ('image2', 'fam5_m3_v1_ver25.png'), ('image1_index', 10), ('middle_index', 11), ('image2_index', 17), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1822), ('image1', 'fam1_f1_v2_ver25.png'), ('middle', 'fam1_f4_v1_ver25.png'), ('image2', 'fam3_f1_v2_ver25.png'), ('image1_index', 1), ('middle_index', 2), ('image2_index', 7), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 101), ('image1', 'matchbox_01b.jpg'), ('middle', 'letter_opener_01b.jpg'), ('image2', 'match_01b.jpg'), ('image1_index', 10), ('middle_index', 7), ('image2_index', 11), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1115), ('image1', 'leaf_06s.jpg'), ('middle', 'bee_10s.jpg'), ('image2', 'tree_trunk_06s.jpg'), ('image1_index', 8), ('middle_index', 1), ('image2_index', 15), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 226), ('image1', 'katydid_07.jpg'), ('middle', 'phyllium_05.jpg'), ('image2', 'stick_insect_01.jpg'), ('image1_index', 3), ('middle_index', 10), ('image2_index', 12), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 322), ('image1', 'fam1_f1_v2_ver25.png'), ('middle', 'fam3_f1_v1_ver25.png'), ('image2', 'fam3_f1_v2_ver25.png'), ('image1_index', 1), ('middle_index', 6), ('image2_index', 7), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 900), ('image1', 'fam5_f4_v1_ver25.png'), ('middle', 'fam3_m1_v1_ver25.png'), ('image2', 'fam5_m1_v1_ver25.png'), ('image1_index', 14), ('middle_index', 9), ('image2_index', 15), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 835), ('image1', 'fam5_m1_v2_ver25.png'), ('middle', 'fam3_f1_v1_ver25.png'), ('image2', 'fam3_f1_v2_ver25.png'), ('image1_index', 16), ('middle_index', 6), ('image2_index', 7), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 2007), ('image1', 'coin_14s.jpg'), ('middle', 'coin_additional.jpg'), ('image2', 'letter_opener_06s.jpg'), ('image1_index', 1), ('middle_index', 2), ('image2_index', 8), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 2114), ('image1', 'letter_opener_06s.jpg'), ('middle', 'letter_opener_01b.jpg'), ('image2', 'matchbox_01b.jpg'), ('image1_index', 8), ('middle_index', 7), ('image2_index', 10), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1837), ('image1', 'key_07s.jpg'), ('middle', 'letter_opener_10s.jpg'), ('image2', 'screwdriver_03s.jpg'), ('image1_index', 4), ('middle_index', 9), ('image2_index', 14), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1643), ('image1', 'fam1_m5_v2_ver25.png'), ('middle', 'fam3_m3_v1_ver25.png'), ('image2', 'fam5_f10_v1_ver25.png'), ('image1_index', 4), ('middle_index', 11), ('image2_index', 12), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 556), ('image1', 'fam3_m3_v1_ver25.png'), ('middle', 'fam1_m5_v2_ver25.png'), ('image2', 'fam3_f1_v1_ver25.png'), ('image1_index', 11), ('middle_index', 4), ('image2_index', 6), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 650), ('image1', 'letter_opener_10s.jpg'), ('middle', 'coin_additional.jpg'), ('image2', 'letter_opener_06s.jpg'), ('image1_index', 9), ('middle_index', 2), ('image2_index', 8), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1523), ('image1', 'fam1_m7_v1_ver25.png'), ('middle', 'fam1_m5_v2_ver25.png'), ('image2', 'fam3_m3_v1_ver25.png'), ('image1_index', 5), ('middle_index', 4), ('image2_index', 11), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 570), ('image1', 'fam3_m1_v1_ver25.png'), ('middle', 'fam1_f1_v1_ver25.png'), ('image2', 'fam3_f1_v1_ver25.png'), ('image1_index', 9), ('middle_index', 0), ('image2_index', 6), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1055), ('image1', 'coin_additional.jpg'), ('middle', 'screwdriver_01s.jpg'), ('image2', 'screwdriver_12s.jpg'), ('image1_index', 2), ('middle_index', 13), ('image2_index', 16), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 174), ('image1', 'fam3_m1_v2_ver25.png'), ('middle', 'fam5_f10_v2_ver25.png'), ('image2', 'fam5_f4_v1_ver25.png'), ('image1_index', 10), ('middle_index', 13), ('image2_index', 14), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1364), ('image1', 'fam1_f1_v1_ver25.png'), ('middle', 'fam1_f1_v2_ver25.png'), ('image2', 'fam3_f1_v2_ver25.png'), ('image1_index', 0), ('middle_index', 1), ('image2_index', 7), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 409), ('image1', 'fam3_f2_v1_ver25.png'), ('middle', 'fam1_m5_v2_ver25.png'), ('image2', 'fam3_m1_v1_ver25.png'), ('image1_index', 8), ('middle_index', 4), ('image2_index', 9), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 2010), ('image1', 'coin_12s.jpg'), ('middle', 'key_03s.jpg'), ('image2', 'screwdriver_04s.jpg'), ('image1_index', 0), ('middle_index', 3), ('image2_index', 15), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1134), ('image1', 'screwdriver_03s.jpg'), ('middle', 'key_08s.jpg'), ('image2', 'screwdriver_04s.jpg'), ('image1_index', 14), ('middle_index', 5), ('image2_index', 15), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1276), ('image1', 'key_03s.jpg'), ('middle', 'key_14s.jpg'), ('image2', 'match_01b.jpg'), ('image1_index', 3), ('middle_index', 6), ('image2_index', 11), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 958), ('image1', 'branch_09s.jpg'), ('middle', 'katydid_07.jpg'), ('image2', 'phyllium_05.jpg'), ('image1_index', 2), ('middle_index', 3), ('image2_index', 10), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 195), ('image1', 'fam3_f1_v2_ver25.png'), ('middle', 'fam3_m1_v1_ver25.png'), ('image2', 'fam5_f10_v2_ver25.png'), ('image1_index', 7), ('middle_index', 9), ('image2_index', 13), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1247), ('image1', 'screwdriver_01s.jpg'), ('middle', 'coin_12s.jpg'), ('image2', 'screwdriver_13s.jpg'), ('image1_index', 13), ('middle_index', 0), ('image2_index', 17), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 2398), ('image1', 'fam1_m5_v1_ver25.png'), ('middle', 'fam5_f10_v2_ver25.png'), ('image2', 'fam5_m1_v2_ver25.png'), ('image1_index', 3), ('middle_index', 13), ('image2_index', 16), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 2074), ('image1', 'match_01b.jpg'), ('middle', 'key_14s.jpg'), ('image2', 'screwdriver_04s.jpg'), ('image1_index', 11), ('middle_index', 6), ('image2_index', 15), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 2293), ('image1', 'stick_insect_01.jpg'), ('middle', 'bee_10s.jpg'), ('image2', 'tree_trunk_06s.jpg'), ('image1_index', 12), ('middle_index', 1), ('image2_index', 15), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 63), ('image1', 'key_07s.jpg'), ('middle', 'coin_additional.jpg'), ('image2', 'match_04s.jpg'), ('image1_index', 4), ('middle_index', 2), ('image2_index', 12), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 372), ('image1', 'fam3_m1_v2_ver25.png'), ('middle', 'fam1_m5_v2_ver25.png'), ('image2', 'fam5_m1_v2_ver25.png'), ('image1_index', 10), ('middle_index', 4), ('image2_index', 16), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 596), ('image1', 'screwdriver_12s.jpg'), ('middle', 'letter_opener_10s.jpg'), ('image2', 'matchbox_01b.jpg'), ('image1_index', 16), ('middle_index', 9), ('image2_index', 10), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 530), ('image1', 'tree_07s.jpg'), ('middle', 'katydid_10.jpg'), ('image2', 'leaf_07s.jpg'), ('image1_index', 14), ('middle_index', 4), ('image2_index', 9), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1164), ('image1', 'fam3_f1_v1_ver25.png'), ('middle', 'fam3_f2_v1_ver25.png'), ('image2', 'fam5_f10_v2_ver25.png'), ('image1_index', 6), ('middle_index', 8), ('image2_index', 13), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1379), ('image1', 'fam5_m3_v1_ver25.png'), ('middle', 'fam1_m5_v2_ver25.png'), ('image2', 'fam3_f1_v1_ver25.png'), ('image1_index', 17), ('middle_index', 4), ('image2_index', 6), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 2278), ('image1', 'fam3_f2_v1_ver25.png'), ('middle', 'fam1_f4_v1_ver25.png'), ('image2', 'fam1_m5_v2_ver25.png'), ('image1_index', 8), ('middle_index', 2), ('image2_index', 4), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1669), ('image1', 'tree_trunk_06s.jpg'), ('middle', 'bee_10s.jpg'), ('image2', 'wasp_06s.jpg'), ('image1_index', 15), ('middle_index', 1), ('image2_index', 17), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 2083), ('image1', 'leaf_06s.jpg'), ('middle', 'bee_01b.jpg'), ('image2', 'stick_insect_01.jpg'), ('image1_index', 8), ('middle_index', 0), ('image2_index', 12), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 2330), ('image1', 'match_04s.jpg'), ('middle', 'key_03s.jpg'), ('image2', 'screwdriver_13s.jpg'), ('image1_index', 12), ('middle_index', 3), ('image2_index', 17), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 594), ('image1', 'key_03s.jpg'), ('middle', 'coin_12s.jpg'), ('image2', 'match_01b.jpg'), ('image1_index', 3), ('middle_index', 0), ('image2_index', 11), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 317), ('image1', 'stick_insect_01.jpg'), ('middle', 'bee_01b.jpg'), ('image2', 'stick_insect_09.jpg'), ('image1_index', 12), ('middle_index', 0), ('image2_index', 13), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1985), ('image1', 'wasp_06s.jpg'), ('middle', 'leaf_02s.jpg'), ('image2', 'tree_07s.jpg'), ('image1_index', 17), ('middle_index', 7), ('image2_index', 14), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 632), ('image1', 'leaf_06s.jpg'), ('middle', 'katydid_07.jpg'), ('image2', 'tree_07s.jpg'), ('image1_index', 8), ('middle_index', 3), ('image2_index', 14), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1807), ('image1', 'phyllium_05.jpg'), ('middle', 'branch_09s.jpg'), ('image2', 'leaf_06s.jpg'), ('image1_index', 10), ('middle_index', 2), ('image2_index', 8), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1016), ('image1', 'fam1_f1_v1_ver25.png'), ('middle', 'fam1_m5_v2_ver25.png'), ('image2', 'fam5_m1_v2_ver25.png'), ('image1_index', 0), ('middle_index', 4), ('image2_index', 16), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1390), ('image1', 'matchbox_01b.jpg'), ('middle', 'letter_opener_01b.jpg'), ('image2', 'letter_opener_06s.jpg'), ('image1_index', 10), ('middle_index', 7), ('image2_index', 8), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 51), ('image1', 'tree_07s.jpg'), ('middle', 'leaf_02s.jpg'), ('image2', 'tree_trunk_06s.jpg'), ('image1_index', 14), ('middle_index', 7), ('image2_index', 15), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1178), ('image1', 'matchbox_01b.jpg'), ('middle', 'key_08s.jpg'), ('image2', 'match_01b.jpg'), ('image1_index', 10), ('middle_index', 5), ('image2_index', 11), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 879), ('image1', 'fam1_f1_v2_ver25.png'), ('middle', 'fam1_f4_v1_ver25.png'), ('image2', 'fam5_f10_v1_ver25.png'), ('image1_index', 1), ('middle_index', 2), ('image2_index', 12), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1568), ('image1', 'screwdriver_13s.jpg'), ('middle', 'screwdriver_03s.jpg'), ('image2', 'screwdriver_04s.jpg'), ('image1_index', 17), ('middle_index', 14), ('image2_index', 15), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1977), ('image1', 'fam5_m1_v1_ver25.png'), ('middle', 'fam1_f4_v1_ver25.png'), ('image2', 'fam1_m5_v1_ver25.png'), ('image1_index', 15), ('middle_index', 2), ('image2_index', 3), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1524), ('image1', 'screwdriver_04s.jpg'), ('middle', 'letter_opener_01b.jpg'), ('image2', 'letter_opener_06s.jpg'), ('image1_index', 15), ('middle_index', 7), ('image2_index', 8), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1091), ('image1', 'coin_additional.jpg'), ('middle', 'coin_12s.jpg'), ('image2', 'match_04s.jpg'), ('image1_index', 2), ('middle_index', 0), ('image2_index', 12), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1684), ('image1', 'ladybug_02s.jpg'), ('middle', 'stick_insect_09.jpg'), ('image2', 'tree_trunk_06s.jpg'), ('image1_index', 5), ('middle_index', 13), ('image2_index', 15), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 2104), ('image1', 'coin_14s.jpg'), ('middle', 'letter_opener_01b.jpg'), ('image2', 'screwdriver_04s.jpg'), ('image1_index', 1), ('middle_index', 7), ('image2_index', 15), ('image_set', 'action'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1316), ('image1', 'fam3_f2_v1_ver25.png'), ('middle', 'fam3_m1_v1_ver25.png'), ('image2', 'fam5_f10_v1_ver25.png'), ('image1_index', 8), ('middle_index', 9), ('image2_index', 12), ('image_set', 'greebles'), ('block_number', 0), ('session_number', 0), ('is_left', 1)]), OrderedDict([('triplet_index', 1500), ('image1', 'tree_trunk_06s.jpg'), ('middle', 'stick_insect_01.jpg'), ('image2', 'wasp_06s.jpg'), ('image1_index', 15), ('middle_index', 12), ('image2_index', 17), ('image_set', 'taxonomic'), ('block_number', 0), ('session_number', 0), ('is_left', 1)])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="conditions/training.csv" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="train" valType="num"/>
+      <Param name="name" updates="None" val="test_trials_classic" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial_classic"/>
+    <Routine name="blank_300"/>
+    <LoopTerminator name="test_trials_classic"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="train" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="end_training"/>
+    <LoopTerminator name="trials"/>
+    <LoopInitiator loopType="TrialHandler" name="classic_trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="$load" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="classic_trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="progress_ind_classic"/>
+    <Routine name="check_block"/>
+    <LoopInitiator loopType="TrialHandler" name="do_break_classic">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="do_break" valType="num"/>
+      <Param name="name" updates="None" val="do_break_classic" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial_break"/>
+    <LoopTerminator name="do_break_classic"/>
+    <Routine name="trial_classic"/>
+    <Routine name="blank_300"/>
+    <LoopTerminator name="classic_trials"/>
+    <LoopTerminator name="do_classic_trials"/>
+    <LoopInitiator loopType="TrialHandler" name="do_ooo_trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="False" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="odd_one_out" valType="num"/>
+      <Param name="name" updates="None" val="do_ooo_trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <LoopInitiator loopType="TrialHandler" name="test_trials_ooo">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="conditions/training.csv" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="train" valType="num"/>
+      <Param name="name" updates="None" val="test_trials_ooo" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial_ooo"/>
+    <Routine name="blank_300"/>
+    <LoopTerminator name="test_trials_ooo"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_2">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="train" valType="num"/>
+      <Param name="name" updates="None" val="trials_2" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="end_training"/>
+    <LoopTerminator name="trials_2"/>
+    <LoopInitiator loopType="TrialHandler" name="ooo_trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="$load" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="ooo_trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="progress_ind_ooo"/>
+    <Routine name="check_block"/>
+    <LoopInitiator loopType="TrialHandler" name="do_break_ooo">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="do_break" valType="num"/>
+      <Param name="name" updates="None" val="do_break_ooo" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial_break"/>
+    <LoopTerminator name="do_break_ooo"/>
+    <Routine name="trial_ooo"/>
+    <Routine name="blank_300"/>
+    <LoopTerminator name="ooo_trials"/>
+    <LoopTerminator name="do_ooo_trials"/>
+  </Flow>
+</PsychoPy2experiment>
